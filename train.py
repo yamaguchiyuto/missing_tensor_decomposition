@@ -11,8 +11,8 @@ def dump_model(outfile, model):
         pickle.dump(model, f)
 
 p = argparse.ArgumentParser()
-p.add_argument("-i", "--infile", help="input tensor file", type=str, required=True)
-p.add_argument("-o", "--outfile", help="output file", type=str, required=True)
+p.add_argument("-i", "--infile", help="input tensor file path", type=str, required=True)
+p.add_argument("-o", "--outfile", help="output model file path", type=str, required=True)
 p.add_argument("-l", "--lamb", help="weight of regularization", type=float, required=True)
 p.add_argument("-k", help="# feature dimensions", type=int, required=True)
 p.add_argument("-n", "--nepochs", help="# epochs (default=30)", type=int, nargs='?', default=30)
