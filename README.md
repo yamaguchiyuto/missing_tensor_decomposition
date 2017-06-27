@@ -75,5 +75,11 @@ $ cat test.dat
 5 10 2
 ```
 
+## Demo
+
+```
+$ sh demo.sh
+```
+
 ## Reference
 Yuto Yamaguchi, Kohei Hayashi, "Tensor Decomposition with Missing Indices", International Joint Conference on Artificial Intelligence (IJCAI), Melbourne, Australia, Aug 19-25, 2017.

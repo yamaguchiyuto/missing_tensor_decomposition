@@ -23,7 +23,7 @@ class MODEL:
         return q
 
     def _missing(self,n,m):
-        if self._X[n,m]<-100:
+        if self._X[n,m]==-1:
             return True
         else:
             return False
